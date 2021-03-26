@@ -1,0 +1,868 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+    <meta name="description" content="Bootstrap navbar examples for any type of project, Bootstrap 4" />
+
+    <title>TRANSPORT NATIONAL </title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <link src="test.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        /// some script
+
+        // jquery ready start
+        $(document).ready(function() {
+            // jQuery code
+
+            //////////////////////// Prevent closing from click inside dropdown
+            $(document).on('click', '.dropdown-menu', function(e) {
+                e.stopPropagation();
+            });
+
+
+        }); // jquery end
+    </script>
+
+    <style type="text/css">
+        @media all and (min-width: 992px) {
+            .navbar {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .navbar .has-megamenu {
+                position: static!important;
+            }
+            .navbar .megamenu {
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 30px;
+                margin-right: 20px;
+            }
+            .navbar .nav-link {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        #font {
+            font-weight: bold!important;
+            color: #fff!important;
+            font-size: 0.9rem!important;
+        }
+        
+        #font:hover {
+            background-color: #fff!important;
+            color: #000!important;
+        }
+        
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+    <nav class="site-header fixed-top   mb-10">
+        <header class="section-header">
+            <div class="container-fluid bg-light row justify-content-center ">
+                <div class="col-2">
+
+                    <a class="navbar-brand mt-3" href="index.html"> <img src="logo ok.png" alt="logo CODIMESS entreprise de livraison" width="230px" /></a>
+
+                </div>
+                <div class="col">
+                    <h6 class=" text-center mt-4 ">NOUS TRAVAILLONS DANS L'URGENCE</h6>
+                </div>
+
+                <div class="col- p-4 mt-4">
+                    <form class="form-inline ">
+                        <div class="form-group mb-2">
+                            <label for="staticEmail2" class="sr-only">Numéro</label>
+                            <a class="mr-2 font-weight-bold" href="ESPACE CLIENT.html">SUIVRE VOTRE EXPEDITION</a>
+                        </div>
+                        <div class="form-group  mb-2">
+                            <label for="inputPassword2" class="sr-only">Numéro de colis</label>
+                            <input class="form-control" placeholder="Numéro (s)de suivi">
+                        </div>
+                        <button type="submit" class="btn btn-danger mb-2"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="col- p-4 justify-content-center">
+                    <form>
+
+                    </form>
+
+
+                    <form>
+                        <button type="button" class="btn btn-outline-warning mt-4"><a href="ESPACE CLIENT.html"><i class="bi bi-person-fill text-center"></i>Espace client </a></button>
+
+                    </form>
+                </div>
+                <div class="col-">
+                    <a class="mr-0 mt-2" href="#"> <img src="illustration 3.jpg" alt="logo CODIMESS entreprise de livraison" width="120px" /></a>
+
+                </div>
+
+            </div>
+        </header>
+    </nav>
+
+
+
+
+
+
+    <div class="fixed-top mt-5" id="bare">
+
+
+        <nav class=" d-flex justify-content-center navbar navbar-expand-lg navbar-dark bg-warning mt-5 p-0">
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+
+                <ul class="navbar-nav d-flex justify-content-around ">
+
+                    <li class="nav-item dropdown has-megamenu ">
+                        <a class="nav-link title" href="index.html" id="font"> ACCUEIL  </a>
+
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-3 ">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="font"> CODIMESS  </a>
+                        <div class="dropdown-menu megamenu" role="menu">
+                            <div class="row">
+                                <!-- end col-3 -->
+                                <!-- end col-3 -->
+                                <div class="col-md-6">
+                                    <div class="col-megamenu">
+                                        <a href="RCODIMESS.html">
+                                            <h6 class="title">Le Mot du Directeur Général</h6>
+                                        </a>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <!--
+                                                <a>
+                                                    C’est avec un plaisir particulier que je vous souhaite la bienvenue sur le site internet de la société CODIMESS. CODIMESS a été créé afin de proposer à ses clients, le meilleur de ce que le transport logistique peut offrir : Rapidité, efficacité et fiabilité.
+                                                    En effet, La logistique, concept d’optimisation des ressources...
+                                                </a>
+                                                -->
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="col-megamenu">
+                                        <h6 class="title">A propos de CODIMESS</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="APROPOS.html"> >Présentation</a></li>
+                                            <li><a href="NOS VALEURS.html"> >Nos valeurs</a></li>
+                                            <li><a href="ENTREPRISE DE TRANSPORT ET LOGISTIQUE.html"> >Entreprise de Transport et Logistique</a></li>
+                                            <li><a href="COURTIER EN TRANSPORT.html"> >Courtier en transport</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <!-- end col-3 -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-3 ">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="font"> PRODUITS ET SERVICES  </a>
+                        <div class="dropdown-menu megamenu" role="menu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="col-megamenu">
+                                        <h6 class="title">Express National</h6>
+                                        <ul class="list-unstyled">
+
+                                            <li><a href="COURRIER EXPRESS NATIONAL.html"> >Courrier express national</a></li>
+                                            <li><a href="SERVICE BANCAIRES.html"> >Solutions Bancaires</a></li>
+                                            <li><a href="TOPCOURRIER EXPRESS NATIONAL.html"> >Top courrier express national</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <!-- end col-3 -->
+
+                                <!-- end col-3 -->
+                                <div class="col-md-4">
+                                    <div class="col-megamenu">
+                                        <h6 class="title">Messageries Nationales</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="MESSAGERIES URBAINES.html"> >Messageries urbaines </a></li>
+                                            <li><a href="TRANSPORTMESSAGERIES NATIONAL.html"> >Messageries express nationales </a></li>
+                                            <li><a href="AFFRETEMENT.html"> >Messageries nationales Affrètement</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="col-megamenu">
+                                        <h6 class="title">Messageries Internationales</h6>
+                                        <ul class="list-unstyled">
+
+                                            <li><a href="TRANSPORTMESSAGERIES INTERNATIONALES.html"> >Messageries express sous régionales </a></li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="col-megamenu">
+                                        <h6 class="title">Service Plus </h6>
+                                        <ul class="list-unstyled">
+
+                                            <li><a href="SERVICE PLUS.html"> > Express samedi </a></li>
+                                            <li><a href="POINT RELAIS.html"> > Point relais</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <!-- end col-3 -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-3">
+                        <a class="nav-link title" href="LOGISTIQUE.html" id="font"> LOGISTIQUE  </a>
+
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-5">
+                        <a class="nav-link" href="ESPACE TRANSPORTEUR.html" id="font"> ESPACE TRANSPORTEUR  </a>
+
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-3">
+                        <a class="nav-link title" href="DEVENEZ POINT RELAIS.html" id="font"> DEVENEZ POINT RELAIS COLIS  </a>
+
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+
+                    <li class="nav-item dropdown has-megamenu ml-2">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="font"> FAQ  </a>
+                        <div class="dropdown-menu megamenu" role="menu">
+                            <div class="row">
+                                <!-- end col-3 -->
+                                <!-- end col-3 -->
+
+                                <div class="col-md-6">
+                                    <div class="col-megamenu">
+                                        <ul>
+                                            <a href="q1.html">
+                                                <h6 class="title">Question : Existe-t-il des restrictions au niveau des envois?</h6>
+                                            </a>
+                                            <a href="q2.html">
+                                                <h6 class="title">Question: Quelles sont les précautions sanitaires à respecter?</h6>
+                                            </a>
+                                            <a href="q3.html">
+                                                <h6 class="title">Question: Est-ce que vous pouvez récupérer les paiements de mes clients en chèque ou en espèces ?</h6>
+                                            </a>
+                                            <a href="q4.html">
+                                                <h6 class="title">Question: Qu’est-ce qu’un bordereau d’expédition et comment le remplir ? </h6>
+                                            </a>
+                                        </ul>
+                                        <!--<ul class="list-unstyled">
+                                            <li><a href="q1.html"> >Question : Existe-t-il des restrictions au niveau des envois?</a></li>
+                                            <li><a href="NOS VALEURS.html"> >Nos valeurs</a></li>
+                                            <li><a href="ENTREPRISE DE TRANSPORT ET LOGISTIQUE.html"> >Entreprise de Transport et Logistique</a></li>
+                                            <li><a href="COURTIER EN TRANSPORT.html"> >Courtier en transport</a></li>
+                                        </ul>
+                                        !-->
+                                    </div>
+                                    <!-- col-megamenu.// -->
+                                </div>
+                                <!-- end col-3 -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item dropdown has-megamenu ml-3 ">
+                        <a class="nav-link" href="CONTACTEZ-NOUS.html" id="font"> CONTACTEZ-NOUS  </a>
+
+                        <!-- dropdown-mega-menu.// -->
+                    </li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+            <!-- navbar-collapse.// -->
+
+    </div>
+    <div class="bg-light mt-5 mb-5">
+        <h1 class="text-light">JUSTE POUR L'ESPACE</h1>
+
+    </div>
+    <!--
+    <div id="myCarousel" class="carousel slide mt-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.lesechos.com/api/v1/images/view/5bd1d66c3e45467263698eb2/1280x720/2156088-e-commerce-la-livraison-gratuite-est-un-miroir-aux-alouettes-179596-1.jpg" />
+                <div class="container">
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+
+    <!--   LE CONTENU MAINTENANT    -->
+
+    <!-- <div class="container mt-5 text-center">
+        <div>
+            <h1 class="text-lg-center text-warning container">Pourquoi choisir CODIMESS ?</h1>
+            <h3 class="text-lg-center text-secondary">Plis, colis, palettes, vrac, volumineux... Nous avons la solution !</h3>
+        </div>
+        <div class="row mt-5">
+
+            <div class="col">
+                <object class="" type="image/svg+xml" data="course reguliere.svg" height="120" width="140"></object>
+                <p class="text-center">Course régulière à partir de 1000 CFA </p>
+            </div>
+            <div class="col">
+                <object type="image/svg+xml" data="moto 0k.svg" height="120" width="140"></object>
+                <p class="text-center">Course urgente à partir de 5000 CFA </p>
+            </div>
+            <div class="col">
+                <object type="image/svg+xml" data="20 ans.svg" height="120" width="140"></object>
+                <p class="text-center">20 ans d'expérience
+                </p>
+            </div>
+            <div class="col">
+                <object type="image/svg+xml" data="ci-03.svg" height="120" width="140"></object>
+                <p class="text-center">Toutes les villes de Côte d'Ivoire</p>
+            </div>
+            <div class="col">
+                <object type="image/svg+xml" data="pays dervi.svg" height="120" width="140"></object>
+                <p class="text-center">220 pays desservis
+                </p>
+            </div>
+        </div>
+        <button class="btn btn-warning center-block">Demander un devis</button>
+    </div>
+
+    LES TROIS IMAGES -->
+    <!--
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://s.france24.com/media/display/b09e77ea-818b-11ea-afd8-005056bff430/w:1280/p:16x9/000_1Q84VU%20(1).jpg" />
+                        <div class="card-body">
+                            <h4 class="text-warning">Courses urgentes</h4>
+                            <p class="card-text">Immédiatement après votre appel téléphonique, un coursier ou chauffeur-livreur se tient près à intervenir pour une livraison exclusive. Disponible 24h/24, 7j/7, nos coursiers…</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+
+                                    <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://frontiersinblog.files.wordpress.com/2020/01/frontiers-energy-research-co2-capture-trucks-transport.jpg?w=1000" />
+                        <div class="card-body">
+                            <h4 class="text-warning">Courrier express national</h4>
+                            <p class="card-text">La livraison en extrême urgence nationale par excellence. Nous sélectionnons pour vous, le meilleur moyen de transport disponible (rail, route, aérien) pour tenir les délais les plus serrés. Vos marchandises…</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+
+                                    <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.cerl.fr/wp-content/uploads/2019/11/fret-aerien-1280x720.jpg" />
+                        <div class="card-body">
+                            <h4 class="text-warning">Envois internationaux</h4>
+                            <p class="card-text">CAP Express bénéficie aujourd’hui de l’un des réseaux les plus denses et les plus performants, et livre en toute sécurité dans plus de 220 pays et territoires sur les cinq continents.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+
+                                    <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   LA FORME ORANGE DES TEMOIGNAGES DE CLIENT  -->
+
+    <!--
+
+    <div class="container bg-warning text-center p-3 ">
+        <h2 class="text-light">LES TÉMOIGNAGES DE NOS CLIENTS</h2>
+        <a class="text-light" href="Page de details.html">Découvrez tous les témoignages</a>
+
+        <div class="row mt-3">
+
+            <div class="col">
+                <p>Je pense parler au nom de toute l'équipe en disant que c'est un réel plaisir de travailler avec vous ! CAP Express, c'est un service de qualité, des délais respectés, une grande réactivité, des correspondants et coursiers disponibles,
+                    agréables, à l'...</p>
+                <strong class="text-light">Séverine V.</strong>
+                <p class="text-light">Assistante Post-Production - Distribution de films</p>
+
+            </div>
+            <div class="col">
+
+                <p>Depuis plus de 8 ans, nous collaborons avec CAP Express pour sa qualité de service, son professionnalisme, sa disponibilité et sa grande écoute, vis à vis de nos interlocuteurs.Tous ces éléments sont partagés par nos clients du secteur
+                    de l'Administr...</p>
+                <strong class="text-light ">André P.</strong>
+                <p class="text-light ">Administration Publique</p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+     LES DEUX RECTANGLES -->
+    <!--
+    <div class="container mt-3">
+
+        <div class="row text-center" id="case">
+
+
+
+
+
+            <div class="col">
+                <div class="jumbotron" id="LASOCIETECODIMESS">
+                    <h3 class="text-light">LA SOLUTION CODIMESS</h3>
+                    <p class="lead text-light">Implantée à Paris depuis 1995, CAP Express est aujourd'hui un acteur majeur du transport express et de la livraison urgente en France et dans le monde.
+
+                    </p>
+                    <a class="btn btn-outline-light" href="../components/navbar/" role="button">LIRE LA SUITE &raquo;</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="jumbotron" id="TRANSPORTETECOLOGIE">
+                    <h3 class="text-light">LE TRANSPORT ET L'ÉCOLOGIE</h3>
+                    <p class="lead text-light">CODIMESS est conscient des enjeux de la préservation de la planète et de sa responsabilité en tant que transporteur et commissionnaire de transport.
+
+                    </p>
+                    <a class="btn btn-outline-light" href="../components/navbar/" role="button">LIRE LA SUITE &raquo;</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    LES TROIS BLOCS D'ACTUALITE -->
+    <!--
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm p-2 ">
+                    <h5 class="text-warning"> COLLECTE ET TRANSPORT DE DÉCHETS D’ENTREPRISE : COMMENT ÇA MARCHE ?</h5>
+
+                    <div class="card-body">
+                        <h6>Actualité du 22-02-2021</h6>
+                        <p class="card-text"> La gestion des déchets est obligatoire pour les professionnels qui sont contraints de les porter eux-mêmes à la déchetterie. Pour ces derniers, c'est souvent une perte de temps, puisqu'il n'est pas rare qu'ils doivent parcourir
+                            plusieurs kilomètres pour se rendre jusqu'à la déchetterie...</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm p-2 ">
+                    <h5 class="text-warning">ENVOYER UN COLIS À L'INTERIEUR DU PAYS</h5>
+
+                    <div class="card-body">
+                        <h6>Actualité du 22-02-2021</h6>
+                        <p class="card-text">Actualité du 22-02-2021 La gestion des déchets est obligatoire pour les professionnels qui sont contraints de les porter eux-mêmes à la déchetterie. Pour ces derniers, c'est souvent une perte de temps, puisqu'il n'est pas rare
+                            qu'ils doivent parcourir plusieurs kilomètres pour se rendre jusqu'à la déchetterie...</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm p-2 ">
+                    <h5 class="text-warning"> RÉDUIRE L’IMPACT DES LIVRAISONS E-COMMERCE SUR L’ENVIRONNEMENT</h5>
+
+                    <div class="card-body">
+                        <h6>Actualité du 08-02-2021</h6>
+                        <p class="card-text">Source de déchets et de pollution, l'e-commerce est de plus en plus pointé du doigt en raison de son impact sur l'environnement. Or, avec la multiplication des phénomènes climatiques extrêmes, les Français sont de plus en plus...
+
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="button" class="btn btn-sm btn-outline-warning">LIRE LA SUITE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        NEW LETTER
+
+
+    </div>
+    -->
+
+    <main role="main" class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 blog-main">
+                <h3 class="pb-4 mb-4 font-italic border-bottom text-warning mt-5">
+                    <span class="text-dark">CODIMESS:</span> NOUS TRAVAILLONS DANS L'URGENCE
+                </h3>
+
+                <div class="blog-post">
+
+
+
+                    <h4 class="bg-warning text-light text-center m-2 p-2">MESSAGERIES EXPRESS NATIONALES</h4>
+
+                    <p class="lead color-dark"> CODIMESS Transporte vos marchandises multi-colis, volumineuses, encombrantes, ou vos colis hors normes en côte d’Ivoire et dans la sous-région
+                    </p>
+                    <h4>Besoin d&#39;expédier de gros colis ou marchandises en province ?
+                    </h4>
+                    <p class="lead">CODIMESS assure l&#39;envoi de colis volumineux et marchandises en 24, 48 ou 72 heures sur toute la Côte d’Ivoire ce jusqu&#39;à 3</p>
+
+
+                    <blockquote>
+                        <h5 class="text-warning">Avantages</h5>
+                        <ul>
+                            <li>
+                                <p class="lead">Vos marchandises voyagent sur des plans de transport fiables et éprouvés</p>
+                            </li>
+                            <li>
+                                <p class="lead">Délai spécifique de 24 heures sous réserve de la règlementation urbaine des sites à desservir
+                                </p>
+                            </li>
+                            <li>
+                                <p class="lead">Suivi personnalisé : un seul interlocuteur dédié du devis à la livraison
+                                </p>
+                            </li>
+                        </ul>
+                    </blockquote>
+
+                    <div class="d-flex justify-content-around">
+                        <div class="bg-secondary p-2">
+                            <h5 class="text-center text-light">Messagerie Classique</h5>
+                            <h5 class="text-center text-light">72 heures</h5>
+                        </div>
+                        <div class="bg-secondary p-2">
+                            <h5 class="text-center text-light">Messagerie Semi-Express</h5>
+                            <h5 class="text-center text-light">48 heures</h5>
+                        </div>
+                        <div class="bg-secondary p-2">
+                            <h5 class="text-center text-light">Messagerie Express</h5>
+                            <h5 class="text-center text-light">24 heures</h5>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-around mt-5">
+                        <img class="text-center ml-5" src="#" class="mt-5" alt="Image à placer">
+
+
+                    </div>
+
+                </div>
+                <!-- /.blog-post -->
+
+
+            </div>
+            <!-- /.blog-main -->
+
+
+            <aside class="col-md-4 blog-sidebar border-1 mt-5">
+                <div class=" mb-3 bg-light border-1 rounded">
+                    <h5 class="text-center text-light bg-warning p-2">TRANSPORT MESSAGERIES EXPRESS</h5>
+                    <ul class="mb-0">
+                        <li><a href="COURRIER EXPRESS NATIONAL.html"> Express national</a></li>
+                        <li><a href="TRANSPORTMESSAGERIES NATIONAL.html"> Messageries nationales</a></li>
+                        <li><a href="TRANSPORTMESSAGERIES INTERNATIONALES.html"> Messageries Internationales</a></li>
+                        <li><a href="SERVICE PLUS.html"> Service plus</a></li>
+                        <li><a href="LOGISTIQUE.html"> Logistique</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="pb-4  rounded mt-5">
+                    <!--
+                    <h4 class="text-center text-light bg-warning p-2">BESOIN D'UNE LIVRAISON OU D'UN ENLEVEMENT?</h4>
+                    <hr>
+                    <h5 class="text-center text-light font-weight-bold m-3">Notre équipe organise et assure vos envoies tous les jours</h5>
+                    <button type="button" class="ml-5 align middle btn btn-secondary">CONTACTER CODIMESS</button>
+                    -->
+                    <img src="case jaune.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class="pb-4 bg-warning rounded mt-5">
+                    <hr>
+                    <h4 class="text-center text-light bg-warning p-2">BESOIN D'UN DEVIS?</h4>
+                    <hr>
+                    <h5 class="text-center text-light font-weight-bold m-3">Notre équipe vous fait un devis </h5>
+                    <p class="text-center">Veuillez s'il vous plait remplir les champs pour avoir votre devis gratuit</p>
+                    <form>
+                        <div class="form-group mr-4 ml-4">
+                            <label class=" text-italic " for="exampleFormControlInput1">Nom et Prénoms <br> (Pour une Entreprise, donnez le nom de l'entreprise)</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom...">
+                        </div>
+                        <div class="form-group mr-4 ml-4">
+                            <label class=" text-italic " for="exampleFormControlInput1">Type d'envoi</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Pli</option>
+                            <option>Colis</option>
+                            <option>Palette</option>
+                            <option>Autres</option>
+                         
+                          </select>
+                        </div>
+                        <div class="form-group mr-4 ml-4">
+                            <label class="text-center text-italic " for="exampleFormControlInput1">Destination</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                            <option>International</option>
+                            <option>Sous-région</option>
+                            <option>National </option>
+                            <option>Abidjan</option>
+                         
+                          </select>
+                        </div>
+                        <div class="form-group mr-4 ml-4">
+                            <label class="text-center text-italic " for="exampleFormControlInput1">Numéro de Téléphone</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tél...">
+                        </div>
+                        <div class="form-group mr-4 ml-4">
+                            <label class="text-center text-italic " for="exampleFormControlInput1">Adresse Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <button type="button" class="ml-4 align middle btn btn-secondary">SOUMETTRE</button>
+
+                </div>
+
+                </form>
+
+
+        </div>
+
+        </div>
+
+
+
+
+        </aside>
+        <!-- /.blog-sidebar -->
+
+        </div>
+        <!-- /.row -->
+
+    </main>
+    <!-- /.container -->
+    <!--
+    <hr>
+    <div class="pt-1">
+        <h2 class="text-lg-center text-warning container"> NOUS GÉRONS VOS LIVRAISONS EXPRESS EN TOUTE SÉRÉNITÉ</h2>
+        <h3 class="text-lg-center text-dark"> Plus simple, Plus rapide & Moins cher</h3>
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.faitesvousconnaitre.com/images/sites/image-envoi-de-colis.png" />
+                        <div class="card-body">
+                            <h4 class="text-warning text-center">ENVOYEZ</h4>
+                            <p class="card-text">CODIMESS vous propose une palette complète de services pour l’expédition de vos de plis et colis, avec un transport express
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="SERVICE.html">Lire la suite</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkNdiWW-9-rXdP0M4uwJNQJqZsst3ml1_4Pg&usqp=CAU" />
+                        <div class="card-body">
+                            <h4 class="text-warning text-center">SUIVEZ</h4>
+                            <p class="card-text">Nos équipes s’occupent du suivi de vos envois, en passant par le transport express de vos colis, jusqu’à la livraison finale. CODIMESS vous garantit une traçabilité du suivi réel depuis votre espace client.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="SUIVEZ.html">Lire la suite</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.bmjelec.com/wp-content/uploads/2019/08/livraison.jpg" />
+                        <div class="card-body">
+                            <h4 class="text-warning text-center">DÉLÉGUEZ</h4>
+                            <p class="card-text"> CODIMESS vous accompagne dans vos problématiques transport en mettant toute son expertise à votre service.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="DELEGUE.html">Lire la suite</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <hr>
+
+
+
+
+    <h4 class="text-center mb-4">CODIMESS: MESSAGERIES EXPRESS</h4>
+
+
+    <!--LE FOOTER-->
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="logo ok.png">
+            <h3>Messagerie<span class="text-dark">Express</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a> |
+                <a href="#">Blog</a> |
+                <a href="#">About</a> |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name"> © 2021 CODIMESS entreprise de Messagerie Express</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Côte d'Ivoire Abidjan,
+                     Bldg. No. A - 1, Sector - 1</span> Mahape, Navi Mumbai - 400710</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+225 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">www.codimess.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>A propos de CODIMESS</span> CODIMESS est une Entreprise Ivoirienne de messagerie</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous "></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous "></script>
+    -->
+</body>
+
+</html>
